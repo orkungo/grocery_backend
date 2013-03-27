@@ -24,9 +24,9 @@ end
 gem 'jquery-rails'
 
 gem "paperclip", "~> 3.0"
-gem 'twitter-bootstrap-rails'
 gem "therubyracer"
 gem "less-rails"
+gem "twitter-bootstrap-rails", '2.1.7'
 
 
 # To use ActiveModel has_secure_password
