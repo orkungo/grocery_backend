@@ -9,6 +9,15 @@ gem 'pg'
 
 gem 'json'
 
+gem 'jquery-rails'
+
+gem "paperclip", "~> 3.0"
+gem "less"
+gem "libv8"
+gem "therubyracer"
+gem "less-rails"
+gem "twitter-bootstrap-rails", :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -21,12 +30,6 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
-
-gem "paperclip", "~> 3.0"
-gem "therubyracer"
-gem "less-rails"
-gem "twitter-bootstrap-rails", '2.1.7'
 
 
 # To use ActiveModel has_secure_password
